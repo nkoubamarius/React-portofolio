@@ -2,7 +2,7 @@
 import React from 'react'
 import './Footer.css'
 import {FiFacebook} from 'react-icons/fi'
-import {BsGithub} from 'react-icons/bs'
+import {BsGithub,BsTwitter} from 'react-icons/bs'
 import {AiOutlineLinkedin} from 'react-icons/ai'
 
 const Footer = () => {
@@ -20,9 +20,10 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">
-        <a href="https://facebook.com" ><FiFacebook/></a>
-        <a href="https://gitthub.com" ><BsGithub/></a>
-        <a href="https://linkedin.com" ><AiOutlineLinkedin/></a>
+        <a href="https://twitter.com/nkoubamarius" target="_blank" rel="noreferrer"><BsTwitter/></a>
+        <a href="https://facebook.com/nkoubamarius" ><FiFacebook/></a>
+        <a href="https://github.com/nkoubamarius" ><BsGithub/></a>
+        <a href="https://www.linkedin.com/in/mariusnkouba/" ><AiOutlineLinkedin/></a>
       </div>
       <div className="footer__copyright">
         <small>&copy; Marius Portofolio. All rights reserved</small>
